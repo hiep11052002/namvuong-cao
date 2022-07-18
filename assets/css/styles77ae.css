@@ -1,0 +1,557 @@
+*{margin: 0;padding: 0;}
+/*Font*/
+   
+    body{font-family: 'Roboto Condensed';font-size: 18px;font-size: normal;background-color: #fff;}
+    h1{font-size: 42px;}
+    h2{font-size: 36px;}
+    h3{font-size: 32px;}
+    h4{font-size: 24px;}
+    h1,h2,h3,h4{
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+    }
+/*Button*/
+    .btn-order{
+        display: block;
+        text-align: center;
+        color: #fff;
+        background-color: #ec1d28;
+        border-radius: 0;
+        max-width: 300px;
+        margin: 20px auto 30px;
+        text-transform: uppercase;
+        font-size: 22px;
+    }
+/*Background*/
+    .sec-1{
+        background: url('../img/bg1.jpg' ) top center no-repeat;
+        min-height: 599px;
+    }
+    .sec-4{
+        background: url('../img/human.png' ) 15% 50% no-repeat;
+        min-height: 534px;
+        background-size: auto;
+    }
+    .sec-5{
+        background: url('../img/bg2.jpg' ) top center no-repeat;
+        min-height: 252px;
+        background-size: cover;
+    }
+    .sec-6{
+        background-color: #000000;
+    }
+    .sec-7{
+        background-color: #262626;
+    }
+    .sec-8{
+        background-color: #000000;
+    }
+    .sec-10{
+        background-color: #000000;
+    }
+    .sec-11{
+        background: url('../img/bg3.jpg' ) top center no-repeat;
+        min-height: 789px;
+        background-size: cover;
+    }
+/*Form*/
+   
+    .order-form legend{
+        padding: 12px 20px;
+        background-color: #0a3c71;
+        color: #fff;
+        font-size: 28px;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bold;
+        border-radius: 20px 20px 0 0;
+        margin: 0;
+        letter-spacing: 1px;
+    }
+    .order-form .text-area{
+        background-color: #fff;
+        padding: 0 20px 20px;
+        border-radius: 0 0 20px 20px;
+    }
+    .order-form .text-area .note{
+        text-align: center;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 0px 0 25px;
+        padding-top: 3px;
+    }
+    .order-form .text-area label{
+        font-size: 16px;
+        font-weight: normal;
+        font-family: 'Roboto';
+    }
+    .order-form .text-area .price{
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .order-form .text-area .price .price-text{
+        color: #cd1d26;
+        font-size: 24px;
+        text-align: right;
+        margin-bottom: 0;
+    }
+    .order-form .text-area .price .price-number{
+        font-size: 16px;
+        text-align: right;
+        line-height: 1.2em;
+        margin-bottom: 50px;
+        margin-top: 5px;
+    }
+    .order-form .text-area .price .price-number span{ 
+        font-size: 34px;
+        font-weight: 900;
+        font-family: 'Roboto';
+    }
+    .order-form .js_submit{
+        width: 100%;
+        text-transform: uppercase;
+        font-size: 20px;
+        text-align: center;
+        color: #fff;
+        border-radius: 0;
+        background-color: #f22831;
+    }
+
+/*input*/
+    input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: #555 !important;
+      background-color: #cccccc;
+    }
+    input::-moz-placeholder { /* Firefox 19+ */
+      color: #555 !important;
+      background-color: #cccccc;
+    }
+    input:-ms-input-placeholder { /* IE 10+ */
+      color: #555 !important;
+      background-color: #cccccc;
+    }
+    input:-moz-placeholder { /* Firefox 18- */
+      color: #555 !important;
+      background-color: #cccccc;
+    }
+    input::placeholder {
+      color: #555 !important;
+      background-color: #cccccc;
+    }
+/*form-control*/
+    .form-control{
+        background-color: #ccc;    
+        border: none;
+        border-radius: 0;
+        font-size: 17px;
+    }
+    .note-tacdung{
+        color: #a2a2a2;
+        font-size: 15px;
+        text-align: center;
+        max-width: 500px;
+        margin: 20px auto 10px;
+        font-weight: 300;
+    } 
+/* hr */
+    .medium-hr{
+        max-width: 420px;
+        margin: 15px auto;
+        border-color: #f2e2cd;
+    }
+    .short-hr{
+        max-width: 220px;
+        margin: 15px auto;
+        border-color: #f2e2cd;
+    }
+    
+/*1*/
+    .sec-1{
+        padding-top: 30px;
+    }
+    .sec-1 .logo{
+        margin-bottom: 10px;
+    }
+    .sec-1 .sp{
+        position: relative;
+        bottom: -30px;
+    }
+    .sec-1 .form-order{
+        max-width: 400px;
+        margin: 50px auto 0;
+        color: #fff;
+        position: relative;
+    }
+    .sec-1 .form-order legend{
+        font-size: 26px;
+        font-family: 'Roboto Condensed';
+        text-align: center;
+        color: #fff;
+        font-weight: bold;
+        line-height: 1.2em;
+        border: none;
+    }
+    .sec-1 .form-order .price{
+        border: 1px solid #fff;
+        padding: 5px;
+        text-align: center;
+        font-family: 'Roboto Condensed';
+        text-transform: uppercase;
+        margin-bottom: 35px;
+    }
+    .sec-1 .form-order .price p{
+        margin-bottom: 0;
+    }
+    .sec-1 .form-order .price .sale{
+        font-size: 24px;
+    }
+    .sec-1 .form-order .price .old-price{
+        text-decoration: line-through;
+    }
+    .sec-1 .form-order .price .new-price{
+        font-family: 'Roboto';
+        font-weight:900;
+        font-size: 30px;
+    }
+    .sec-1 .form-order .price .new-price span{
+        font-size:18px;
+        font-weight: normal;
+    }
+    .sec-1 .form-order .text-area{
+        max-width: 320px;
+        margin: 0 auto;
+    }
+    .sec-1 .form-order .js_submit{
+        width: 100%;
+        border: none;
+        margin: 0;
+        max-width: 100%
+    }
+    .sec-1 .form-order .text-area .note{
+        margin-top:15px;
+        font-weight:normal;
+        text-align: right;
+        font-size: 16px;
+        color: #ccc;
+        margin-bottom: unset;
+    }
+    .sec-1 .form-order .text-area .note.n1{
+        margin-top: unset; ;
+        margin-bottom: unset;
+    }
+    .sec-1 .arrow{
+        display: block;
+        width: 132px;
+        height: 306px;
+        background: url('../img/arrow.png');
+        position: absolute;
+        right: -120px;
+        top: 60px;
+    }
+/*2*/
+    .sec-2{
+        padding-top: 50px;
+    }
+    .sec-2 .banner{
+        margin-bottom: 50px;
+    }
+    .sec-2 .title{
+        text-align: center;
+        text-transform: uppercase;
+        max-width:180px;
+        margin: 20px auto;
+        color: #2a2a2a;
+    }
+
+/*3*/
+    .sec-3 .timkiem{
+        margin: 30px auto 20px;
+    }
+    .sec-3 .title{
+        color: #2a2a2a;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        max-width:200px;
+        margin: 0 auto 30px;
+    }
+/*4*/
+    .sec-4 .box-text{
+        background-color: #2a2a2a;
+        color: #fff;
+        padding: 10px 20px;
+        max-width: 560px;
+    }
+    .sec-4 .box-text h2{
+        color: #f2e2cd;
+        border-bottom: 3px solid #181818;
+        line-height: 0.9em;
+        padding-bottom: 10px;
+    }
+    .sec-4 .box-text h2 span{
+        font-size: 24px;
+        display: block;
+    }
+    .sec-4 .box-text ul{
+        list-style: none;
+        margin: 30px 15px;
+
+    }
+    .sec-4 .box-text ul li{
+        padding: 5px 0 0 80px;
+        background: url('../img/ngua.png') top left no-repeat;
+        margin-bottom: 20px;
+        min-height: 60px;
+    }
+/*5*/
+    .sec-5 h2{
+        text-align: right;
+        color: #f2e2cc;
+        margin-top:60px;
+        line-height: 1.2em;
+    }
+    .sec-5 .sp{
+        position: relative;
+        top: -20px;
+    }
+/*6*/
+    .sec-6 h2{
+        color: #f2e2cc;
+        max-width: 600px;
+        margin:20px auto 0;
+    }
+    .sec-6 .sub{
+        text-align: center;
+        max-width: 620px;
+        margin: 0 auto 40px;
+        color: #f2e2cd;
+        font-weight: 300;
+    }
+    .sec-6 ul li{
+        list-style: none;
+        float: left;
+        margin-bottom: 20px;
+        min-height: 160px;
+    }
+    .sec-6 ul li .desc{
+        font-weight: 300;
+        font-size: 14px;
+        color: #f2e2cd;
+        width: 60%;
+        float: left;
+        margin: 0px auto;
+        border-bottom: 1px solid #c2b5a4;
+        padding-bottom: 20px;
+        text-align: justify;
+        position: relative;
+        z-index: 1;
+    }
+    .sec-6 ul li .desc b{ 
+        text-transform: uppercase;
+    }
+    .sec-6 ul li .img{
+        width: 40%;
+        float: left;
+        padding: 0 10px;
+    }
+    .sec-6 ul li .img .thanhphan{
+        margin: 0 auto;
+    }
+    .sec-6 .sp{
+        margin-top: 80px;
+    } 
+/*7*/
+    .sec-7 h2{
+        color: #f2e2cc;
+        max-width: 500px;
+        margin:20px auto 0;
+    }
+    .sec-7 .text-box{
+        color: #fff;
+        font-weight: 300;
+        font-size: 14px;
+        padding: 15px;
+        border: 1px solid #fff;
+    }
+    .sec-7 .note{
+        color :#fff;
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .sec-7 .doctor{
+            margin-top: 15px;
+        }
+/*8*/
+    .sec-8{
+        padding: 20px 0;
+    }
+    .sec-8 h2{
+        color: #f2e2cc;
+        max-width: 500px;
+        margin:20px auto 0;
+    }
+    .sec-8 .short-hr{
+        margin-bottom: 50px;
+    }
+    .sec-8 .title{
+        margin: 20px 0;
+        color: #b68d2d;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .sec-8 .info{
+        color: #fff;
+        text-align: center;
+        font-weight: 300;
+        font-size: 16px;
+        max-width: 220px;
+        margin: 0 auto 15px;
+    }
+/*9*/
+    .sec-9{
+        padding: 20px 0;
+    }
+    .sec-9 h3{
+        color: #000;
+        max-width: 700px;
+        margin: 0 auto 30px;
+    }
+    .sec-9 .box{
+        background-color: #dfdfdf;
+        padding: 20px 25px;
+        display: block;
+        border-radius: 25px;
+        max-width: 770px;
+        margin: 20px auto;
+    }
+    .sec-9 .box ul{
+        margin-top: 25px;
+    }
+    .sec-9 .box ul li{
+        color: #000;
+        margin-bottom:20px;
+    }
+    .sec-9 .box .desc{
+        color: #565656;
+        border-left: 1px solid #565656;
+        padding-left: 20px;
+    }
+    .sec-9 .box .desc b{
+        display: block;
+    }
+/*10*/
+    .sec-10{
+        padding: 30px 0;
+    }
+    .sec-10 h2{
+        color: #f2e2cc;
+        max-width: 500px;
+        margin:20px auto 10px;
+        font-weight: normal;
+    }
+    .sec-10 .angle{
+        margin-bottom: 40px;
+    }
+    .sec-10 .box-comment{
+        border: 1px solid #f2e2cc;
+        margin: 20px auto;
+        padding: 30px;
+        max-width: 1000px;
+
+    }
+    .sec-10 .box-comment .info{
+        color: #f2e2cc;
+        font-weight: 300;
+        line-height: 1.4em;
+    }
+    .sec-10 .box-comment .name{
+        color: #f2e2cc;
+        text-align: center;
+        background-color: #bd3c67;
+        max-width: 300px;
+        padding: 10px 0;
+        margin-top: 20px;
+    }
+/* 11 */
+    .sec-11{
+        padding-top: 30px;
+        position: relative;
+    }
+    .sec-11 .human{
+        position: absolute;
+        left: -420px;
+        top: -20px;
+    }
+    .sec-11 .slogan{
+        margin-bottom: 30px;
+    }
+    .sec-11 .note{
+        color: #888;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .sec-11 .order-form{
+        max-width: 400px;
+        margin: 0 auto;
+        border-radius: 20px;
+        box-shadow: 3px 9px 14px rgba(86, 85, 85, 0.58);
+        -webkit-box-shadow: 3px 9px 14px rgba(86, 85, 85, 0.58);
+        -moz-box-shadow: 3px 9px 14px rgba(86, 85, 85, 0.58);
+        -ms-box-shadow: 3px 9px 14px rgba(86, 85, 85, 0.58);
+    }
+    .sec-11 .order-form .price{
+        border: 1px solid #fff;
+        padding: 5px;
+        text-align: right;
+        font-family: 'Roboto Condensed';
+        text-transform: uppercase;
+    }
+    .sec-11 .order-form .price p{
+        margin-bottom: 0;
+    }
+    .sec-11 .order-form .price .sale{
+        font-size: 24px;
+    }
+    .sec-11 .order-form .price .old-price{
+        text-decoration: line-through;
+    }
+    .sec-11 .order-form .price .new-price{
+        font-family: 'Roboto';
+        font-weight:900;
+        font-size: 30px;
+    }
+    .sec-11 .order-form .price .new-price span{
+        font-size:18px;
+        font-weight: normal;
+    }
+    .sec-11 .order-form .js_submit{
+        width: 100%;
+        border: none;
+        margin: 20px 0;
+        max-width: 100%
+    }
+    .sec-11 .arrow{
+        display: block;
+        width: 132px;
+        height: 306px;
+        background: url('../img/arrow.png');
+        position: absolute;
+        right: -120px;
+        top: 60px;
+    }
+    .sec-11 ul{
+        color: #d6d4d4;
+        font-size: 14px;
+        max-width:400px;
+        margin: 20px auto 0;
+    }
+    .sec-11 ul li{
+        margin-bottom: 6px;
+    }
+
+
+    
+        
+    
